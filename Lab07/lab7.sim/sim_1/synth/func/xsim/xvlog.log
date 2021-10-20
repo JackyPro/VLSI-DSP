@@ -1,0 +1,3 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab07/lab7.sim/sim_1/synth/func/xsim/P8x8_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module P8x8
+INFO: [VRFC 10-311] analyzing module glbl
