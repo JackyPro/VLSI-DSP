@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab05/lab5b/lab5_2.sim/sim_1/synth/func/xsim/lab5_2_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab5_2
+INFO: [VRFC 10-311] analyzing module mem
+INFO: [VRFC 10-311] analyzing module mem__blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module mem__blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module mem__blk_mem_gen_prim_wrapper
+INFO: [VRFC 10-311] analyzing module mem__blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module mem__blk_mem_gen_v8_4_4
+INFO: [VRFC 10-311] analyzing module mem__blk_mem_gen_v8_4_4_synth
+INFO: [VRFC 10-311] analyzing module glbl

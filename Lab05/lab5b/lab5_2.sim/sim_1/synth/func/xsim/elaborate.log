@@ -1,0 +1,30 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado2020.1/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 2f841056600e43c997e94508a09f3f5e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot lab5_2_func_synth xil_defaultlib.lab5_2 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.FDCE_default
+Compiling module unisims_ver.CARRY4
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.RB18_INTERNAL_VLOG(DOA_REG=1,RDA...
+Compiling module unisims_ver.RAMB18E1(DOA_REG=1,RDADDR_COLLIS...
+Compiling module xil_defaultlib.mem__blk_mem_gen_prim_wrapper
+Compiling module xil_defaultlib.mem__blk_mem_gen_prim_width
+Compiling module xil_defaultlib.mem__blk_mem_gen_generic_cstr
+Compiling module xil_defaultlib.mem__blk_mem_gen_top
+Compiling module xil_defaultlib.mem__blk_mem_gen_v8_4_4_synth
+Compiling module xil_defaultlib.mem__blk_mem_gen_v8_4_4
+Compiling module xil_defaultlib.mem
+Compiling module xil_defaultlib.lab5_2
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab5_2_func_synth
