@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab08/sim2
+T_opt
+!s110 1605063549
+VQg=[N2B9`EEFb;7L=SQEG1
+04 2 4 work TM fast 0
+=1-3c7c3f19e7be-5fab5379-cd-f640
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.4;61
+R0
+vfir
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 [[fgU@H:3bm=>;27hzMY^1
+I26G2XIUNYfELl?j8@dP:o2
+R0
+w1605066565
+8C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab08/sim2/fir.v
+FC:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab08/sim2/fir.v
+L0 8
+Z2 OL;L;10.4;61
+!s108 1605066596.375000
+!s107 C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab08/sim2/fir.v|
+!s90 -reportprogress|300|-work|work|C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab08/sim2/fir.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vTM
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 QkL6A7;KgUfLDh[3gIPQI3
+I^2iIe2aOUB]hfka@HPlzc1
+R0
+w1605066562
+8C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab08/sim2/TM_gate.v
+FC:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab08/sim2/TM_gate.v
+L0 3
+R2
+!s108 1605066598.280000
+!s107 C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab08/sim2/TM_gate.v|
+!s90 -reportprogress|300|-work|work|C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab08/sim2/TM_gate.v|
+!i113 0
+R3
+n@t@m
