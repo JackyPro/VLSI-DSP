@@ -1,0 +1,279 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Oct 28 10:53:46 2020
+# Process ID: 7344
+# Current directory: C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25020 C:\Xilinx\Vivado2020.1\Vivado\2020.1\2020_VSP\Lab06\Lab06\lab6.xpr
+# Log file: C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/vivado.log
+# Journal file: C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Xilinx/work/Lab06' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado2020.1/Vivado/2020.1/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'ila_0' is locked:
+* IP definition 'ILA (Integrated Logic Analyzer) (6.2)' for IP 'ila_0' (customized with software release 2018.3) has a different revision in the IP Catalog.
+INFO: [Project 1-230] Project 'lab6.xpr' upgraded for this version of Vivado.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:10 . Memory (MB): peak = 1022.004 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.srcs/sources_1/ip/ila_0/ila_0.dcp' for cell 'your_instance_name'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 1141.742 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 61 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: your_instance_name UUID: c43761e0-c036-5039-8c69-07a263a83e64 
+Parsing XDC File [c:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'your_instance_name/inst'
+Finished Parsing XDC File [c:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'your_instance_name/inst'
+Parsing XDC File [c:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'your_instance_name/inst'
+Finished Parsing XDC File [c:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'your_instance_name/inst'
+Parsing XDC File [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/RCA4.xdc]
+Finished Parsing XDC File [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/RCA4.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1249.070 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 40 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 40 instances
+
+open_run: Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 1388.180 ; gain = 366.176
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+create_ip -name ila -vendor xilinx.com -library ip -version 6.2 -module_name ila_1 -dir c:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.srcs/sources_1/ip
+set_property -dict [list CONFIG.C_PROBE0_TYPE {0} CONFIG.C_PROBE3_WIDTH {1} CONFIG.C_PROBE2_WIDTH {4} CONFIG.C_PROBE1_WIDTH {4} CONFIG.C_PROBE0_WIDTH {4} CONFIG.C_DATA_DEPTH {1024} CONFIG.C_NUM_OF_PROBES {3}] [get_ips ila_1]
+generate_target {instantiation_template} [get_files c:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.srcs/sources_1/ip/ila_1/ila_1.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_1'...
+update_compile_order -fileset sources_1
+generate_target all [get_files  c:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.srcs/sources_1/ip/ila_1/ila_1.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_1'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.srcs/sources_1/ip/ila_1/ila_1_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_1'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_1'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_1'...
+catch { config_ip_cache -export [get_ips -all ila_1] }
+export_ip_user_files -of_objects [get_files c:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.srcs/sources_1/ip/ila_1/ila_1.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.srcs/sources_1/ip/ila_1/ila_1.xci]
+launch_runs ila_1_synth_1 -jobs 8
+[Wed Oct 28 11:05:23 2020] Launched ila_1_synth_1...
+Run output will be captured here: C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.runs/ila_1_synth_1/runme.log
+export_simulation -of_objects [get_files c:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.srcs/sources_1/ip/ila_1/ila_1.xci] -directory C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.ip_user_files/sim_scripts -ip_user_files_dir C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.ip_user_files -ipstatic_source_dir C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.cache/compile_simlib/modelsim} {questa=C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.cache/compile_simlib/questa} {riviera=C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.cache/compile_simlib/riviera} {activehdl=C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Wed Oct 28 11:07:14 2020] Launched synth_1...
+Run output will be captured here: C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.runs/synth_1/runme.log
+close_design
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Wed Oct 28 11:07:49 2020] Launched synth_1...
+Run output will be captured here: C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.srcs/sources_1/ip/ila_1/ila_1.dcp' for cell 'your_instance_name'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.060 . Memory (MB): peak = 2032.750 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 60 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: your_instance_name UUID: c43761e0-c036-5039-8c69-07a263a83e64 
+Parsing XDC File [c:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.srcs/sources_1/ip/ila_1/ila_v6_2/constraints/ila_impl.xdc] for cell 'your_instance_name/inst'
+Finished Parsing XDC File [c:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.srcs/sources_1/ip/ila_1/ila_v6_2/constraints/ila_impl.xdc] for cell 'your_instance_name/inst'
+Parsing XDC File [c:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.srcs/sources_1/ip/ila_1/ila_v6_2/constraints/ila.xdc] for cell 'your_instance_name/inst'
+Finished Parsing XDC File [c:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.srcs/sources_1/ip/ila_1/ila_v6_2/constraints/ila.xdc] for cell 'your_instance_name/inst'
+Parsing XDC File [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/RCA4.xdc]
+Finished Parsing XDC File [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/RCA4.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2032.750 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 40 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 40 instances
+
+open_run: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 2032.750 ; gain = 0.000
+set_property mark_debug true [get_nets [list c_2]]
+save_constraints
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -hierarchical -filter {TYPE == "GLOBAL_CLOCK"}'.
+WARNING: [Coretcl 2-1122] No objects found.
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+connect_debug_port u_ila_0/clk [get_nets [list clko_OBUF ]]
+set_property port_width 1 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list c_2 ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list cout_OBUF ]]
+save_constraints
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Wed Oct 28 11:15:43 2020] Launched synth_1...
+Run output will be captured here: C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.srcs/sources_1/ip/ila_1/ila_1.dcp' for cell 'your_instance_name'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.061 . Memory (MB): peak = 2062.633 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 60 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: your_instance_name UUID: c43761e0-c036-5039-8c69-07a263a83e64 
+Parsing XDC File [c:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.srcs/sources_1/ip/ila_1/ila_v6_2/constraints/ila_impl.xdc] for cell 'your_instance_name/inst'
+Finished Parsing XDC File [c:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.srcs/sources_1/ip/ila_1/ila_v6_2/constraints/ila_impl.xdc] for cell 'your_instance_name/inst'
+Parsing XDC File [c:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.srcs/sources_1/ip/ila_1/ila_v6_2/constraints/ila.xdc] for cell 'your_instance_name/inst'
+Finished Parsing XDC File [c:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.srcs/sources_1/ip/ila_1/ila_v6_2/constraints/ila.xdc] for cell 'your_instance_name/inst'
+Parsing XDC File [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/RCA4.xdc]
+Finished Parsing XDC File [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/RCA4.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2062.633 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 40 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 40 instances
+
+open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 2064.473 ; gain = 1.840
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.096 . Memory (MB): peak = 2151.613 ; gain = 10.383
+[Wed Oct 28 11:19:07 2020] Launched impl_1...
+Run output will be captured here: C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.1
+  **** Build date : May 27 2020 at 20:24:38
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2020.1.0
+  **** Build date : May 14 2020-09:10:29
+    ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 2153.805 ; gain = 2.191
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+open_hw_target: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 3439.836 ; gain = 1286.031
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.runs/impl_1/RCA4.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.runs/impl_1/RCA4.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.runs/impl_1/RCA4.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 2 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 3484.906 ; gain = 2.352
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2020-Oct-28 11:27:07
+set_property TRIGGER_COMPARE_VALUE eq4'b0001 [get_hw_probes a_IBUF -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2020-Oct-28 11:30:40
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2020-Oct-28 11:33:00
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2020-Oct-28 11:33:02
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2020-Oct-28 11:33:48
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2020-Oct-28 11:33:48
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2020-Oct-28 11:34:58
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2020-Oct-28 11:34:58
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property TRIGGER_COMPARE_VALUE lt4'b0001 [get_hw_probes a_IBUF -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2020-Oct-28 11:37:51
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2020-Oct-28 11:37:51
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property TRIGGER_COMPARE_VALUE eq4'b0001 [get_hw_probes a_IBUF -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2020-Oct-28 11:38:22
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2020-Oct-28 11:38:22
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2020-Oct-28 11:38:27
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2020-Oct-28 11:38:32
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2020-Oct-28 11:38:33
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2020-Oct-28 11:38:33
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+startgroup 
+set_property CONTROL.DATA_DEPTH 512 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+set_property CONTROL.TRIGGER_POSITION 511 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+endgroup
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2020-Oct-28 11:38:57
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2020-Oct-28 11:38:59
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2020-Oct-28 11:39:00
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2020-Oct-28 11:39:00
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 28 11:39:55 2020...
