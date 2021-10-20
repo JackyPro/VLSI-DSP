@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab11/architecture
+vTM
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 6Z;S2gWVeBWQ<D7V_Qj>S3
+I;IS[RBMO[PeS955cko7Wj0
+R0
+w1607479472
+8C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab11/architecture/TM.v
+FC:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab11/architecture/TM.v
+L0 3
+Z2 OL;L;10.4;61
+!s108 1607479476.685000
+!s107 C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab11/architecture/TM.v|
+!s90 -reportprogress|300|-work|work|C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab11/architecture/TM.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@t@m
+vTop
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 gQKADQ:DLTgHM8UmO`DGL1
+Ib=a;PbR2GR5[egG@I7aMB3
+R0
+w1607479113
+8C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab11/architecture/Top_sol.v
+FC:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab11/architecture/Top_sol.v
+L0 8
+R2
+!s108 1607479476.899000
+!s107 C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab11/architecture/Top_sol.v|
+!s90 -reportprogress|30|-work|work|C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab11/architecture/Top_sol.v|
+!i113 0
+R3
+n@top
