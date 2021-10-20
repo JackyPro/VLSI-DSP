@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"TM_mem_func_synth.v" \
+"../../../../../lab05.srcs/sim_1/imports/all/TM_mem.v" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,9 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab05/lab5b/lab5_2.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab05/lab5b/lab5_2.srcs/sim_1/imports/lab5b/TM_mem.v,1603253334,verilog,,,,TM_mem,,,,,,,,
+C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab05/lab5b/lab5_2.srcs/sources_1/imports/lab5b/lab5_2.v,1603254637,verilog,,C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab05/lab5b/lab5_2.srcs/sim_1/imports/lab5b/TM_mem.v,,lab5_2,,,,,,,,
+C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab05/lab5b/lab5_2.srcs/sources_1/ip/mem1/sim/mem1.v,1603252286,verilog,,C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab05/lab5b/lab5_2.srcs/sources_1/imports/lab5b/lab5_2.v,,mem1,,,,,,,,
+C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab05/lab5b/lab5_2.srcs/sources_1/ip/mem_1/sim/mem.v,1603252902,verilog,,C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab05/lab5b/lab5_2.srcs/sources_1/imports/lab5b/lab5_2.v,,mem,,,,,,,,

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Oct 28 11:19:18 2020
+# Process ID: 26316
+# Current directory: C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.runs/impl_1
+# Command line: vivado.exe -log RCA4.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source RCA4.tcl -notrace
+# Log file: C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.runs/impl_1/RCA4.vdi
+# Journal file: C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source RCA4.tcl -notrace

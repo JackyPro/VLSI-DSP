@@ -1,0 +1,4 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+Block Memory Generator module TM_mem.U_mem.your_instance_name.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+$finish called at time : 5140 ns : File "C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab05/lab5b/lab5_2.srcs/sim_1/imports/lab5b/TM_mem.v" Line 36

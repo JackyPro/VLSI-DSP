@@ -1,0 +1,109 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt&CORDIC3
+vCordic
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 l0QG:`z[PkZ=<`?cDKkd`2
+Ij><Ra`^o?bmd_@oN[iV;83
+R0
+w1610441910
+8C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt&CORDIC3/cordic.v
+FC:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt&CORDIC3/cordic.v
+L0 1
+Z2 OL;L;10.4;61
+!s108 1610445237.109000
+!s107 C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt&CORDIC3/cordic.v|
+!s90 -reportprogress|30|-work|work|C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt&CORDIC3/cordic.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@cordic
+vCordic2
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 BTzW3YVV0j:@mCCC:61YQ2
+I6ai?8=OZbRLmU`U2MY:8E2
+R0
+w1610445216
+8C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt&CORDIC3/cordic2.v
+FC:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt&CORDIC3/cordic2.v
+L0 1
+R2
+!s108 1610445237.275000
+!s107 C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt&CORDIC3/cordic2.v|
+!s90 -reportprogress|30|-work|work|C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt&CORDIC3/cordic2.v|
+!i113 0
+R3
+n@cordic2
+vCordic_tb1
+!s110 1610445237
+!i10b 1
+!s100 h0_hSTK1EBB=hj9l>T:n03
+INDA0f`izzcPlcP;Laj`DE3
+R1
+R0
+w1610438170
+8C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt&CORDIC3/cordic_tb1.v
+FC:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt&CORDIC3/cordic_tb1.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1610445237.193000
+!s107 C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt&CORDIC3/cordic_tb1.v|
+!s90 -reportprogress|30|-work|work|C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt&CORDIC3/cordic_tb1.v|
+!i113 0
+R3
+n@cordic_tb1
+vdct
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 k]za;;1zZ>zeTBII`@:OZ0
+I0fXM_N_HHID4nQlo^03di1
+R0
+w1610445130
+8C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt&CORDIC3/8x8_1D_DCT.v
+FC:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt&CORDIC3/8x8_1D_DCT.v
+L0 22
+R2
+!s108 1610445236.929000
+!s107 C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt&CORDIC3/8x8_1D_DCT.v|
+!s90 -reportprogress|300|-work|work|C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt&CORDIC3/8x8_1D_DCT.v|
+!i113 0
+R3
+vdcttest
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 FPId5UTeZXckChiOh[dd?3
+I5=T46b3RM>j]h@[P[Ij?J1
+R0
+w1610444936
+8C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt&CORDIC3/8x8_1D_DCT_tb.v
+FC:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt&CORDIC3/8x8_1D_DCT_tb.v
+L0 23
+R2
+!s108 1610445237.029000
+!s107 C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt&CORDIC3/8x8_1D_DCT_tb.v|
+!s90 -reportprogress|30|-work|work|C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt&CORDIC3/8x8_1D_DCT_tb.v|
+!i113 0
+R3

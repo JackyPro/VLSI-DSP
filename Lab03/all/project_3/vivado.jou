@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Oct  7 13:29:38 2020
+# Process ID: 16912
+# Current directory: C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14188 C:\Xilinx\Vivado2020.1\Vivado\2020.1\examples\2020_VSP\Lab03\all\project_3\project_3.xpr
+# Log file: C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/vivado.log
+# Journal file: C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source TM_M8x8.tcl
+close_sim
+launch_simulation
+source TM_M8x8.tcl
+close_sim
+launch_simulation
+source TM_M8x8.tcl
+close_sim
+launch_simulation
+source TM_M8x8.tcl
+save_wave_config {C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/TM_M8x8_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/TM_M8x8_behav.wcfg
+set_property xsim.view C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/TM_M8x8_behav.wcfg [get_filesets sim_1]
+close_sim

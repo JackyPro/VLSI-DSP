@@ -1,0 +1,59 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/CORDIC3
+T_opt
+!s110 1610382423
+VdYjPOG[5<WLLi5Clj?Eb21
+04 15 4 work Cordic_Test_tb1 fast 0
+=1-3c7c3f19e7be-5ffc7c54-7d-3f40
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.4;61
+R0
+vCordic_Test
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 [gPO>^M]V;liEJ;;iCPd[3
+IJ6;ERb;?YRKEfYl?FL3JF3
+R0
+w1610417667
+8C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/CORDIC3/cordic.v
+FC:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/CORDIC3/cordic.v
+L0 1
+Z2 OL;L;10.4;61
+!s108 1610419925.650000
+!s107 C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/CORDIC3/cordic.v|
+!s90 -reportprogress|300|-work|work|C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/CORDIC3/cordic.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@cordic_@test
+vCordic_Test_tb1
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 OTT6ZeAl?`RiEih7SYB3B2
+IGhNazUb?kDWe7d?8Vl9B>1
+R0
+w1610420084
+8C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/CORDIC3/cordic_tb1.v
+FC:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/CORDIC3/cordic_tb1.v
+L0 3
+R2
+!s108 1610420090.125000
+!s107 C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/CORDIC3/cordic_tb1.v|
+!s90 -reportprogress|300|-work|work|C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/CORDIC3/cordic_tb1.v|
+!i113 0
+R3
+n@cordic_@test_tb1

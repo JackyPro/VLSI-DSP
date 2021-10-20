@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Oct  7 11:25:04 2020
+# Process ID: 2804
+# Current directory: C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.runs/synth_1
+# Command line: vivado.exe -log P8x8.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source P8x8.tcl
+# Log file: C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.runs/synth_1/P8x8.vds
+# Journal file: C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source P8x8.tcl -notrace

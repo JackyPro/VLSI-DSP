@@ -1,0 +1,10 @@
+A=[12;45];
+B=[2;3];
+C=A.*B;
+D=A./B;
+E=A.^2;
+disp(A);
+disp(B);
+disp(C);
+disp(D);
+disp(E);

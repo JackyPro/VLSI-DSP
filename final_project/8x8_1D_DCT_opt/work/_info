@@ -1,0 +1,48 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt
+vdct
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 K1M^506MVL8jcdniao`h<1
+I6>kaMANel;SKQA=YW8n[C1
+R0
+w1610376493
+8C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt/8x8_1D_DCT.v
+FC:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt/8x8_1D_DCT.v
+L0 22
+Z2 OL;L;10.4;61
+!s108 1610376500.588000
+!s107 C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt/8x8_1D_DCT.v|
+!s90 -reportprogress|300|-work|work|C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt/8x8_1D_DCT.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vdcttest
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 UOFT6EnW;l25jBeH5F^Sj2
+Ih@OA@PlM6_87gaS4JAia33
+R0
+w1610375383
+8C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt/8x8_1D_DCT_tb.v
+FC:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt/8x8_1D_DCT_tb.v
+L0 23
+R2
+!s108 1610376500.659000
+!s107 C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt/8x8_1D_DCT_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt/8x8_1D_DCT_tb.v|
+!i113 0
+R3

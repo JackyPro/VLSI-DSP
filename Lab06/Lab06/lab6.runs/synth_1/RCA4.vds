@@ -1,0 +1,223 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Oct 28 11:15:50 2020
+# Process ID: 21704
+# Current directory: C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.runs/synth_1
+# Command line: vivado.exe -log RCA4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RCA4.tcl
+# Log file: C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.runs/synth_1/RCA4.vds
+# Journal file: C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source RCA4.tcl -notrace
+Command: synth_design -top RCA4 -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 20312
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1022.059 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'RCA4' [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/RCA4.v:23]
+INFO: [Synth 8-6157] synthesizing module 'HA' [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/HA.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'HA' (1#1) [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/HA.v:8]
+INFO: [Synth 8-6157] synthesizing module 'FA' [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/FA.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'FA' (2#1) [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/FA.v:8]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/RCA4.v:47]
+INFO: [Synth 8-6157] synthesizing module 'ila_1' [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.runs/synth_1/.Xil/Vivado-21704-LAPTOP-COBJ78AE/realtime/ila_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ila_1' (3#1) [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.runs/synth_1/.Xil/Vivado-21704-LAPTOP-COBJ78AE/realtime/ila_1_stub.v:6]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'your_instance_name'. This will prevent further optimization [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/RCA4.v:47]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'U4_FA'. This will prevent further optimization [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/RCA4.v:43]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'U3_FA'. This will prevent further optimization [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/RCA4.v:42]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'U2_FA'. This will prevent further optimization [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/RCA4.v:41]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'U1_HA'. This will prevent further optimization [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/RCA4.v:40]
+INFO: [Synth 8-6155] done synthesizing module 'RCA4' (4#1) [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/RCA4.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1022.059 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1022.059 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1022.059 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1022.059 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.srcs/sources_1/ip/ila_1/ila_1/ila_1_in_context.xdc] for cell 'your_instance_name'
+Finished Parsing XDC File [c:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.srcs/sources_1/ip/ila_1/ila_1/ila_1_in_context.xdc] for cell 'your_instance_name'
+Parsing XDC File [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/RCA4.xdc]
+WARNING: [Vivado 12-507] No nets matched 'cout_OBUF'. [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/RCA4.xdc:22]
+Finished Parsing XDC File [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/RCA4.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/RCA4.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/RCA4_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/RCA4.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/RCA4_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/RCA4_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1022.059 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1022.059 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1022.059 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1022.059 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property MARK_DEBUG = true for c_2. (constraint file  C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/RCA4.xdc, line 24).
+Applied set_property DONT_TOUCH = true for your_instance_name. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1022.059 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1022.059 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 7     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1022.059 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1025.668 ; gain = 3.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1025.691 ; gain = 3.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1044.777 ; gain = 22.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1050.605 ; gain = 28.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1050.605 ; gain = 28.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1050.605 ; gain = 28.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1050.605 ; gain = 28.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1050.605 ; gain = 28.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1050.605 ; gain = 28.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |ila_1         |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |ila  |     1|
+|2     |LUT1 |     2|
+|3     |LUT2 |     2|
+|4     |LUT3 |     6|
+|5     |IBUF |     7|
+|6     |OBUF |     6|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1050.605 ; gain = 28.547
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 1050.605 ; gain = 28.547
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1050.605 ; gain = 28.547
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1050.605 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1063.457 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+26 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1063.457 ; gain = 41.398
+INFO: [Common 17-1381] The checkpoint 'C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab06/Lab06/lab6.runs/synth_1/RCA4.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file RCA4_utilization_synth.rpt -pb RCA4_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 28 11:16:26 2020...

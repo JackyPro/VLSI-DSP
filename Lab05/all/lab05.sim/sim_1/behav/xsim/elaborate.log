@@ -1,0 +1,8 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado2020.1/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto f75542ca3e304597a49b441c33e539cd --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TM_mem_behav xil_defaultlib.TM_mem xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <mem> not found while processing module instance <your_instance_name> [C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab05/all/lab05.srcs/sources_1/imports/all/lab5.v:31]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

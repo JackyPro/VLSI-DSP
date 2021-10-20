@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Jan 13 01:28:12 2021
+# Process ID: 6356
+# Current directory: C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt_with_CORDIC3/8x8_1D_DCT_opt_with_CORDIC3.runs/synth_1
+# Command line: vivado.exe -log dct.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dct.tcl
+# Log file: C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt_with_CORDIC3/8x8_1D_DCT_opt_with_CORDIC3.runs/synth_1/dct.vds
+# Journal file: C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/final_project/8x8_1D_DCT_opt_with_CORDIC3/8x8_1D_DCT_opt_with_CORDIC3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source dct.tcl -notrace
