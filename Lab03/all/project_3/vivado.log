@@ -1,0 +1,598 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Oct  7 13:29:38 2020
+# Process ID: 16912
+# Current directory: C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14188 C:\Xilinx\Vivado2020.1\Vivado\2020.1\examples\2020_VSP\Lab03\all\project_3\project_3.xpr
+# Log file: C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/vivado.log
+# Journal file: C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado2020.1/Vivado/2020.1/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TM_M8x8' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TM_M8x8_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.sim/sim_1/behav/xsim'
+"xelab -wto d889b0aefaba4a7ea910994bb70f34a0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TM_M8x8_behav xil_defaultlib.TM_M8x8 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado2020.1/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto d889b0aefaba4a7ea910994bb70f34a0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TM_M8x8_behav xil_defaultlib.TM_M8x8 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+ERROR: [XSIM 43-4287] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sim_1/imports/all/TM8x8.v" Line 15. Undefined system task '$fsdbDumpfile'
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TM_M8x8' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TM_M8x8_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/P8x8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module P8x8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sim_1/imports/all/TM8x8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TM_M8x8
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.sim/sim_1/behav/xsim'
+"xelab -wto d889b0aefaba4a7ea910994bb70f34a0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TM_M8x8_behav xil_defaultlib.TM_M8x8 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado2020.1/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto d889b0aefaba4a7ea910994bb70f34a0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TM_M8x8_behav xil_defaultlib.TM_M8x8 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/P8x8.v" Line 8. Module P8x8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/P8x8.v" Line 8. Module P8x8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+INFO: [Common 17-14] Message 'XSIM 43-4099' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.P8x8
+Compiling module xil_defaultlib.TM_M8x8
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TM_M8x8_behav
+
+****** Webtalk v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.sim/sim_1/behav/xsim/xsim.dir/TM_M8x8_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.sim/sim_1/behav/xsim/xsim.dir/TM_M8x8_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Oct  7 13:35:14 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado2020.1/Vivado/2020.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Wed Oct  7 13:35:14 2020...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 1021.457 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '16' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TM_M8x8_behav -key {Behavioral:sim_1:Functional:TM_M8x8} -tclbatch {TM_M8x8.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source TM_M8x8.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 900 ns : File "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sim_1/imports/all/TM8x8.v" Line 54
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TM_M8x8_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:22 . Memory (MB): peak = 1021.457 ; gain = 0.000
+close_sim
+ERROR: [Vivado 12-106] *** Exception: java.lang.NullPointerException (See C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/vivado_pid16912.debug)
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 1021.457 ; gain = 0.000
+ERROR: [Common 17-39] 'close_sim' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TM_M8x8' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TM_M8x8_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/P8x8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module P8x8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sim_1/imports/all/TM8x8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TM_M8x8
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.sim/sim_1/behav/xsim'
+"xelab -wto d889b0aefaba4a7ea910994bb70f34a0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TM_M8x8_behav xil_defaultlib.TM_M8x8 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado2020.1/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto d889b0aefaba4a7ea910994bb70f34a0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TM_M8x8_behav xil_defaultlib.TM_M8x8 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/P8x8.v" Line 8. Module P8x8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/P8x8.v" Line 8. Module P8x8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+INFO: [Common 17-14] Message 'XSIM 43-4099' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.P8x8
+Compiling module xil_defaultlib.TM_M8x8
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TM_M8x8_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1021.457 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TM_M8x8_behav -key {Behavioral:sim_1:Functional:TM_M8x8} -tclbatch {TM_M8x8.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source TM_M8x8.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 900 ns : File "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sim_1/imports/all/TM8x8.v" Line 54
+xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1021.457 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TM_M8x8_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:18 . Memory (MB): peak = 1021.457 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TM_M8x8' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TM_M8x8_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.sim/sim_1/behav/xsim'
+"xelab -wto d889b0aefaba4a7ea910994bb70f34a0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TM_M8x8_behav xil_defaultlib.TM_M8x8 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado2020.1/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto d889b0aefaba4a7ea910994bb70f34a0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TM_M8x8_behav xil_defaultlib.TM_M8x8 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TM_M8x8_behav -key {Behavioral:sim_1:Functional:TM_M8x8} -tclbatch {TM_M8x8.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source TM_M8x8.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 900 ns : File "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sim_1/imports/all/TM8x8.v" Line 54
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TM_M8x8_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1021.457 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TM_M8x8' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TM_M8x8_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/P8x8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module P8x8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sim_1/imports/all/TM8x8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TM_M8x8
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.sim/sim_1/behav/xsim'
+"xelab -wto d889b0aefaba4a7ea910994bb70f34a0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TM_M8x8_behav xil_defaultlib.TM_M8x8 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado2020.1/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto d889b0aefaba4a7ea910994bb70f34a0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TM_M8x8_behav xil_defaultlib.TM_M8x8 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/P8x8.v" Line 8. Module P8x8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/P8x8.v" Line 8. Module P8x8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sources_1/imports/all/FA.v" Line 8. Module FA doesn't have a timescale but at least one module in design has a timescale.
+INFO: [Common 17-14] Message 'XSIM 43-4099' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.P8x8
+Compiling module xil_defaultlib.TM_M8x8
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TM_M8x8_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1021.457 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TM_M8x8_behav -key {Behavioral:sim_1:Functional:TM_M8x8} -tclbatch {TM_M8x8.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source TM_M8x8.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 1 us : File "C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/project_3.srcs/sim_1/imports/all/TM8x8.v" Line 56
+xsim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1021.457 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TM_M8x8_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:17 . Memory (MB): peak = 1021.457 ; gain = 0.000
+save_wave_config {C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/TM_M8x8_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/TM_M8x8_behav.wcfg
+set_property xsim.view C:/Xilinx/Vivado2020.1/Vivado/2020.1/examples/2020_VSP/Lab03/all/project_3/TM_M8x8_behav.wcfg [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct  7 14:00:55 2020...
