@@ -1,0 +1,70 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab12
+vTM
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 fXW>i;6a`jE?D@ON[on6J1
+IDZX7c:`GW`1z4H^?l1KzM1
+R0
+w1610207366
+8C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab12/TM.v
+FC:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab12/TM.v
+L0 3
+Z2 OL;L;10.4;61
+!s108 1610207380.841000
+!s107 C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab12/TM.v|
+!s90 -reportprogress|300|-work|work|C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab12/TM.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@t@m
+vTop
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 VlYhPQ;WbI;D@[m]@NWdN1
+I@_F_fg]kn>zWeWE^lSlTj2
+R0
+w1451375816
+8C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab12/Top_sol.v
+FC:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab12/Top_sol.v
+L0 8
+R2
+!s108 1610204904.437000
+!s107 C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab12/Top_sol.v|
+!s90 -reportprogress|300|-work|work|C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab12/Top_sol.v|
+!i113 0
+R3
+n@top
+vTop_2
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 7Uljl2>i0kNSk?WKBKJA91
+I2?]mSD6eMCk0f[AYX?2^20
+R0
+w1610207358
+8C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab12/Top_sol2.v
+FC:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab12/Top_sol2.v
+L0 8
+R2
+!s108 1610207380.097000
+!s107 C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab12/Top_sol2.v|
+!s90 -reportprogress|300|-work|work|C:/Xilinx/Vivado2020.1/Vivado/2020.1/2020_VSP/Lab12/Top_sol2.v|
+!i113 0
+R3
+n@top_2
