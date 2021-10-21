@@ -2,8 +2,8 @@
 2020 course: vlsi digital signal processing
 Tool
 - Simulator: Modelsim
-- FPGA: Xilinx Vivado 
-- Xilinx PYNQ-Z2 
+- FPGA: Xilinx PYNQ-Z2 
+- Xilinx Vivado
 
 |Lab|Detail|Document|
 |:----:|:----:|----:|
