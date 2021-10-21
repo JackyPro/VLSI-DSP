@@ -1,5 +1,9 @@
 # VLSI-DSP
 2020 course: vlsi digital signal processing
+Tool
+- Simulator: Modelsim
+- FPGA: Vivado 
+- Xilinx PYNQ-Z2 
 ### Lab  1 
 simple led controler 
 ### Lab  2
