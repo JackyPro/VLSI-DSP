@@ -2,7 +2,7 @@
 2020 course: vlsi digital signal processing
 Tool
 - Simulator: Modelsim
-- FPGA: Vivado 
+- FPGA: Xilinx Vivado 
 - Xilinx PYNQ-Z2 
 ### Lab  1 
 simple led controler 
